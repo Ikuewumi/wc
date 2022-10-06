@@ -1,0 +1,14 @@
+{
+   "name": "my-components",
+   "version": "1.0.0",
+   "description": "Where I can experiment with web-components",
+   "scripts": {
+      "dev": "npx start",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "keywords": [
+      "web-components"
+   ],
+   "author": "Ayobami Ikuewumi",
+   "license": "ISC"
+}
