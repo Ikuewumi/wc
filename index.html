@@ -7,9 +7,24 @@
    <link rel="stylesheet" href="./css/reset.css">
    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
    <script src="./js/attribution.js"></script>
+   <script src="./js/pricing.js"></script>
    <title>My Web Components</title>
 </head>
 <body>
-   <wc-attribution link="https://github.com/Ikuewumi/moviedl" />
+
+   <style>
+      body {
+         display: grid;
+         place-items: center;
+      }
+   </style>
+   
+   <wc-pricing features="waste of time, world of pain in here, new world">
+      <div slot="title">Professional</div>
+      <div slot="btn">JOIN</div>
+      <div slot="price">$90</div>
+   </wc-pricing>
+   <!-- <wc-attribution link="https://github.com/Ikuewumi/moviedl" /> -->
+
 </body>
 </html>
