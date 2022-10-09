@@ -39,6 +39,7 @@ templateWcPricing.innerHTML = `
          gap: 0.7rem;
          border: 1px solid rgb(0 0 0 / 0.1);
          border-radius: 1vmax;
+         background: #fff;
       }
 
       .wc-pricing > img, .wc-pricing > svg {

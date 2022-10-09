@@ -6,8 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./css/reset.css">
    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-   <script src="./js/attribution.js"></script>
-   <script src="./js/pricing.js"></script>
+   <script src="./js/userCard.js"></script>
    <title>My Web Components</title>
 </head>
 <body>
@@ -16,15 +15,15 @@
       body {
          display: grid;
          place-items: center;
+         background: rgb(240, 240, 240);
       }
    </style>
-   
-   <wc-pricing features="waste of time, world of pain in here, new world">
-      <div slot="title">Professional</div>
-      <div slot="btn">JOIN</div>
-      <div slot="price">$90</div>
-   </wc-pricing>
-   <!-- <wc-attribution link="https://github.com/Ikuewumi/moviedl" /> -->
+   <wc-user-card img="./assets/user-card/user.jpg">
+      <div slot="name">Selena Goodwin</div>
+      <div slot="email">selena@gmail.com</div>
+      <div slot="position">Assistant Manager</div>
+      <div slot="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ratione reprehenderit perspiciatis voluptates optio tempore molestiae, a repellat debitis asperiores architecto, perferendis magnam vero nostrum? Ratione magni excepturi aspernatur nobis.</div>
+   </wc-user-card>
 
 </body>
 </html>
