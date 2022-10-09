@@ -3,7 +3,7 @@
 const template = document.createElement('template')
 template.innerHTML = ``//Define the template's HTML and CSS here
 
-class NewComponent extends HTMLElement {
+class Component extends HTMLElement {
    constructor() {
       // Do not delete this line
       super();
@@ -14,21 +14,14 @@ class NewComponent extends HTMLElement {
 
    }
 
+   static props = []
+
    connectedCallback() {
       // Mount the element. Add event listeners and timers
    }
 
    disconnectedCallback() {
       // Unmount the element. Remove event listeners and timers
-   }
-
-   static getObservedAttributes() {
-      // Optional. Used to define attributes to be observed
-      return []
-   }
-
-   attributeChangedCallback(name, oldValue, newValue) {
-      // Fires when one of the attributes above has changed
    }
 
    updateUI() {
@@ -40,7 +33,7 @@ class NewComponent extends HTMLElement {
 
 // Register the element
 function register() {
-   window.customElements.define('new-component', NewComponent)
+   window.customElements.define('new-component', Component)
 }
 
 register()
