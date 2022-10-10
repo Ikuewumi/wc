@@ -64,7 +64,7 @@ template.innerHTML = `
       opacity: 0.2;
    }
    #attribution p {
-      font-size: 17px;
+      font-size: 13px;
       margin: 0;
    }
    #attribution > p {
