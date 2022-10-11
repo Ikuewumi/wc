@@ -1,4 +1,4 @@
-wc
+# wc
 
 [💻 Live Site](https://ikuewumi.github.io/wc/)
 
