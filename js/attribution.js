@@ -39,10 +39,12 @@ template.innerHTML = `
       box-sizing: border-box;
       font-size: 13px;
       line-height: 1.05;
+      word-wrap: break-word;
    }
 
    #attribution {
       padding: 2rem 0.8rem;
+      padding-inline: 4rem;
       display: grid;
       width: 100%;
       background: rgb(0 0 0 / 0.01);
