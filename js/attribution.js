@@ -44,7 +44,7 @@ template.innerHTML = `
 
    #attribution {
       padding: 2rem 0.8rem;
-      padding-inline: 4rem;
+      padding-inline: 0;
       display: grid;
       width: 100%;
       background: rgb(0 0 0 / 0.01);
