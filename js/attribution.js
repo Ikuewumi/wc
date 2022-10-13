@@ -64,8 +64,9 @@ template.innerHTML = `
       opacity: 0.2;
    }
    #attribution p {
-      font-size: 17px;
+      font-size: 12px;
       margin: 0;
+      margin-block: 0;
    }
    #attribution > p {
       text-decoration: underline;
@@ -85,7 +86,7 @@ template.innerHTML = `
       background: rgba(0, 0, 0, 0.02);
       border: 1px solid rgba(0, 0, 0, 0.02);
       width: fit-content;
-      padding: 0.8rem 1.2rem;
+      padding: 0.5rem 1.2rem;
       cursor: pointer;
       transition: 0.4s ease;
       border-radius: 1.6vmax;
